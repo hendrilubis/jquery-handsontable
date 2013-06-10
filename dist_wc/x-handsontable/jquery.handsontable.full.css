@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  * http://handsontable.com/
  *
- * Date: Tue Jun 04 2013 01:32:28 GMT+0200 (Central European Daylight Time)
+ * Date: Tue Jun 11 2013 00:26:49 GMT+0200 (Central European Daylight Time)
  */
 
 .handsontable {
@@ -70,6 +70,15 @@
   vertical-align: top;
   overflow: hidden;
   outline-width: 0;
+}
+
+.handsontable td.htInvalid {
+  -webkit-transition: background-color 0.25s linear;
+  -moz-transition: background-color 0.25s linear;
+  -ms-transition: background-color 0.25s linear;
+  -o-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+  background-color: red;
 }
 
 .handsontable th:last-child {
